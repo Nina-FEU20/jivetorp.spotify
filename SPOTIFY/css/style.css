@@ -1,0 +1,251 @@
+
+.main{
+    height: 100vh;
+    width: 100%;
+    background: #2940a8;
+}
+
+.main-top{
+    width: 100%;
+    height: 80px;
+    background: #000000;
+    color: #ffffff;
+    position: fixed;
+}
+
+
+.logo{
+    fill: #ffffff;
+    width: 130px;
+}
+
+.top-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Size setting */
+    height: 100%;
+    max-width: 1150px;
+    margin: 0 auto 0 auto;
+    padding-top: 10px;
+}
+
+.main-top-left{
+    flex: 3;
+}
+
+.main-top-right{
+    flex: 8;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.menu{
+    display: flex;
+    font-weight: 500;
+}
+
+.menu-item{
+    padding: 10px 15px;
+}
+
+.menu-item:hover{
+    color: #1ED760; 
+    cursor: pointer;
+}
+
+.main-bottom{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background: url(https://www.scdn.co/i/home/lieVariants/bursts.svg) no-repeat; 
+    background-position-x: center;
+    background-size: 170%;
+}
+   
+.bottom-showcase{
+    display: flex;
+    align-content: center;
+}
+ 
+.showcase-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+h1{
+    color: #1ED760;
+    font-size: 120px;
+    font-weight: 600; 
+    
+}
+
+.one{
+    padding-top: 100px;
+    padding-right: 230px;
+}
+
+.two{
+    padding-left: 230px;
+}
+
+.p-hero{
+    padding: 30px 0px;
+    color: #1ED760;
+}
+
+.btn{
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    font-size: 16px;
+    color:#2940a8; 
+    text-decoration: none;
+    background: #1ED760;
+    padding: 16px 40px;
+    border-radius: 500px;
+    Font-size: 14px;
+}
+
+
+
+/* -------- HÄR BÖRJAR FOOTER -------- */
+ 
+.main-footer{
+    background: #000000;
+    height: 92vh;
+    width: 100%
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1150px;
+    margin: 0 auto 0 auto;
+    padding-top: 70px;
+    
+}
+
+.footer-logo{
+    flex: 1;
+}
+
+.textrows{
+    flex: 1;
+}
+
+.footer-title{
+    color: #919496;
+    text-transform: uppercase;
+    padding: 18px 0px;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.footer-text{
+    padding: 10px 0px;
+    color: #ffffff;
+}
+
+.footer-text:hover{
+    color: #1ED760; 
+    cursor: pointer;
+}
+
+
+
+
+.social-media{
+    flex: 2;
+}
+
+.social-media-container{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.logo-container{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #222326;;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+}
+
+.social-media-logo{
+    width: 30px;
+    height: 30px;
+    background: #ffffff;
+}
+
+.social-media-logo:hover{
+    background: #1ED760;
+    cursor: pointer;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1150px;
+    margin: 0 auto 0 auto;
+    padding-top: 150px;
+}
+
+.footer-bottom-left{
+    flex: 3;
+}
+
+
+.bottom-left{
+    color: #919496;
+    display: flex;
+    padding-top: 32px;
+    
+}
+
+.bottom-text{
+    padding: 0px 10px;
+    font-size: 12px;
+}
+
+.bottom-text:hover{
+    color: #1ED760; 
+    cursor: pointer;
+}
+
+
+.bottom-right{
+    color: #919496;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.sweden{
+    padding-bottom: 10px;
+}
+
+
+
+.flag{
+    width: 25px;
+    margin-left: 6px;
+}
+
+
+
+
+
+
+
+
+
+
